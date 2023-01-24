@@ -79,12 +79,18 @@ p{
 }
 table{
     border: 1px solid white;
+    width: 900px;
+    margin-left: 50px;
+    border-radius: 20px;
 }
 th{
     border-bottom: 1px solid white;
+    color: white;
+
 }
 th,td{
     border-right:1px solid white;
+    padding: 5px;
 }
 td:last-child{
     border: none;
@@ -92,6 +98,11 @@ td:last-child{
 th:last-child{
     border-right: none;
 }
-
+.newline{
+    margin-left: 50px;
+}
+td:first-child{
+    color: white;
+}
 
 
